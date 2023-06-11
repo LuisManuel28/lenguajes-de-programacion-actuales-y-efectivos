@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lenguajes de Programación Actuales y Efectivos 2023</title>
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+    <link rel="mask-icon" type="image/x-icon" href="logo.png" color="#111" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #536dfe;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+nav ul li a:hover{
+    background: #536dfe;
+    color: #fff;
+}
+  nav.sticky ul li a:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}nav{
+      background-color: #5c53fe;
+      padding: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .image-container {
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-container img {
+    width: 470px;
+    height: auto;
+    border: 1px solid #5c53fe;
+    transition: transform 0.3s;
+    align-content: center;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+    .container {
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #007bff;
+    }
+
+    .section-content {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .background-animation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      animation: backgroundAnimation 10s infinite linear;
+    }
+
+    @keyframes backgroundAnimation {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lenguajes de Programación Actuales y Efectivos 2023</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu" id="myTopnav">
+                <li><a href="index.html #lenguajes" onclick="toggleMenu();">Inicio</a></li>
+      <li><a href="#lenguajes">Lenguajes de Programación</a></li>
+      <li><a href="#conclusion">Conclusión</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="section" id="introduccion">
+      <h2 class="section-title">Introducción</h2>
+      <div class="section-content">
+        <p>Los lenguajes de programación desempeñan un papel fundamental en el desarrollo de software y la creación de soluciones innovadoras en la actualidad. En este año 2023, existen varios lenguajes destacados que se consideran altamente efectivos y ampliamente utilizados en diferentes campos.</p>
+      </div>
+    </div>
+
+    <div class="section" id="lenguajes">
+      <h2 class="section-title">Lenguajes de Programación</h2>
+      <div class="section-content">
+        <p>A continuación, presentamos algunos de los lenguajes de programación más relevantes y efectivos en 2023:</p>
+        <ul>
+          <li>Python: Un lenguaje versátil y de alto nivel utilizado en desarrollo web, análisis de datos e inteligencia artificial.</li>
+          <li>JavaScript: Un lenguaje interpretado y orientado a objetos ampliamente utilizado en desarrollo web, aplicaciones móviles y automatización del lado del cliente.</li>
+          <li>Java: Un lenguaje popular y escalable utilizado en el desarrollo de aplicaciones empresariales, Android y sistemas embebidos.</li>
+          <li>C++: Un lenguaje de propósito general eficiente en recursos, utilizado en el desarrollo de sistemas operativos, juegos y software de alto rendimiento.</li>
+          <li>Rust: Un lenguaje de programación de sistemas que prioriza la seguridad, el rendimiento y la concurrencia.</li>
+          <li>Go: Un lenguaje eficiente y fácil de leer que se enfoca en la concurrencia y la simplicidad.</li>
+          <li>Kotlin: Un lenguaje moderno y conciso que se ejecuta en la máquina virtual de Java (JVM), utilizado en aplicaciones Android, backend y desarrollo web.</li>
+          <li>Swift: Un lenguaje poderoso y fácil de usar desarrollado por Apple para iOS, macOS y watchOS.</li>
+        </ul>
+        <div class="image-container">
+                <img src="img33.png">
+            </div>
+            <div class="image-container">
+                <img src="img3.png">
+            </div>
+            <div class="image-container">
+                <img src="img4.png">
+            </div>
+      </div>
+    </div>
+
+    <div class="section" id="conclusion">
+      <h2 class="section-title">Conclusión</h2>
+      <div class="section-content">
+        <p>Los lenguajes de programación actuales y efectivos desempeñan un papel crucial en el desarrollo de software en 2023. Cada uno tiene sus propias fortalezas y se adapta a diferentes necesidades y proyectos. Mantente actualizado con las últimas tendencias y selecciona el lenguaje adecuado para cada situación, aprovechando al máximo tus habilidades de programación y destacando en el campo de la tecnología.</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.querySelector('.background-animation').style.backgroundImage = 'url(fondopet.gif)';
+  </script>
+</body>
+</html>

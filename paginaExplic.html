@@ -1,0 +1,75 @@
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+    <link rel="mask-icon" type="image/x-icon" href="logo.png" color="#111" />
+    <title>Lenguajes de Programación Actuales</title>
+        <link rel="stylesheet" href="./fondoanimacion.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <body>
+    <div class='ripple-background'>
+  <div class='circle xxlarge shade1'></div>
+  <div class='circle xlarge shade2'></div>
+  <div class='circle large shade3'></div>
+  <div class='circle mediun shade4'></div>
+  <div class='circle small shade5'></div>
+</div>
+        <header>
+            <a href="#" class="logo">Lenguajes de Programación Actuales</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu" id="myTopnav">
+            </ul>
+        </header>
+        <section>
+        <div class="banner" id="home">
+            <div class="info">
+
+                <h1> <br> <br> Lenguaje de programación</h1>
+                <h4>¿Que es un lenguaje de programación?</h4>
+
+<p>Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los programadores comunicarse con una computadora. Es una herramienta que se utiliza para escribir programas informáticos, que son conjuntos de instrucciones que le indican a la computadora cómo realizar una tarea específica. Estos lenguajes utilizan una sintaxis y una gramática específicas para escribir el código, que luego se traduce a un lenguaje que la computadora puede entender y ejecutar. Hay muchos lenguajes de programación diferentes, cada uno con sus propias características y usos específicos. Algunos ejemplos populares incluyen Python, Java, C++ y JavaScript.</p>
+            
+            
+<main>
+    <div class="video-container">
+        <div class="video-box">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Q21YZ06F_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="video-title">Video Sobre los Lenguajes de Programación 2023</div>
+        </div>
+        <div class="video-box">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pWw4UtQhdek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="video-title">Video Informativo sobre Lenguajes de Programación</div>
+        </div>
+    </div>
+</main>
+
+    <center><a href="index.html" class="btn">Regresar a la pagina principal</a>
+            </center></div>
+            <img src="lengExplicacion.jpg">
+            
+            
+        </footer>
+        <script>
+            window.addEventListener('scroll',function(){
+                var header =document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
+            function toggleMenu(){
+                var menuToggle = document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle.classList.toggle('active');
+                menu.classList.toggle('active');
+            }
+        </script>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+    </body>
+</html>
